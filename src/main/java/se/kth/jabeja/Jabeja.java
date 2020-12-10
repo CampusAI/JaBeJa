@@ -70,7 +70,7 @@ public class Jabeja {
     if (simulatedAnnealing)
       T = Math.max(T*config.getDelta(), T_min);
     else
-      T = Math.max(T - config.getDelta(), 1.0);
+      T = Math.max(T - config.getDelta(), 1.0f);
   }
 
   /**

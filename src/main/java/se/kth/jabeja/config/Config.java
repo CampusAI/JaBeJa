@@ -14,9 +14,10 @@ public class Config {
   private NodeSelectionPolicy nodeSelectionPolicy;
   private Float alpha;
   private Double factor;
+  private boolean restart;
   private boolean sa;
 
-  public Config setRPestart(boolean restart) {
+  public Config setRestart(boolean restart) {
     this.restart = restart;
     return this;
   }
